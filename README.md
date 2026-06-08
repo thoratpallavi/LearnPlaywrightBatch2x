@@ -4,19 +4,19 @@ A small Playwright learning repository containing JavaScript examples and exerci
 
 ## Structure
 
-- chapter_01_Basics: Basic Playwright and JavaScript examples
-- chapter_02_Javascript_Concepts: JavaScript concepts and identifier examples
-- chapter_03_Identifier_Literals: (empty)
+- `chapter_01_Basics`: Basic Playwright and JavaScript examples
+- `chapter_02_Identifier_Literals`: Identifier and literal examples
+- `chapter_03_Javascript_Concepts`: JavaScript concepts (variables, functions, hoisting, etc.)
 
 ## Running examples
 
-These are plain JavaScript files. To run an example use Node.js (if the file contains runnable code):
+Most files are plain JavaScript modules or snippets. To run an example with Node.js:
 
 ```bash
-node chapter_02_Javascript_Concepts/05_JS_Identifiers_Part2.js
+node chapter_03_Javascript_Concepts/07_JS_let_Variable.js
 ```
 
-If examples require Playwright, install dependencies and run with Playwright test or node as appropriate.
+If an example uses Playwright APIs, install dependencies and run with Playwright or Node as appropriate.
 
 Install dependencies (if needed):
 
@@ -24,9 +24,15 @@ Install dependencies (if needed):
 npm install
 ```
 
+Run Playwright tests (if present):
+
+```bash
+npx playwright test
+```
+
 ## Contributing
 
-Feel free to open issues or submit pull requests with improvements or exercises.
+Contributions are welcome — open issues or submit pull requests with improvements or additional exercises.
 
 ## License
 
