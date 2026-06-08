@@ -1,3 +1,4 @@
+//rules for JavaScript identifiers
 // Examples of JavaScript identifiers — valid and invalid
 
 // Valid identifiers (these are actual declarations you can run)
